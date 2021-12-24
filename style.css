@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  body {
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    background-color:#033E3E;
+  }
+  
+  
+  
+  #meal-input {
+    height: 6vh;
+    border: none;
+    border-radius: 10px 0 0 10px;
+  }
+  
+  #meal-submit {
+    width: 15vh;
+    height: 7vh;
+    border: none;
+    color: #ffffff;
+    background-color: black;
+    border-radius: 0 10px 10px 0;
+  }
+  #meal-submit:hover {
+    color: #f8dd74;
+  }
+  
+ 
+  #no-meal-found {
+    color: white;
+    font-weight: bolder;
+  }
+  
+  
+  .cursor {
+    cursor: pointer;
+  }
+  .meal-details-div img {
+    width: 100%;
+    border-radius: 1em 1em 0 0;
+  }
+  #meal-details img {
+    width: 100%;
+    height: 40vh;
+    object-fit: cover;
+  }
+  #meal-details h2 {
+    color: #3b2d64;
+    font-weight: bold;
+  }
+  #meal-details p {
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+  
